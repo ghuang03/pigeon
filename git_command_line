@@ -17,3 +17,41 @@
  2072  [2017-10-10 15:50:36 -0700] history
 guolihuang-macbookpro2:pigeon guolihuang$ 
 
+
+
+guolihuang-macbookpro2:pigeon guolihuang$ vi git_command_line
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ git add git_command_line 
+guolihuang-macbookpro2:pigeon guolihuang$ git commit "Second file"
+error: pathspec 'Second file' did not match any file(s) known to git.
+guolihuang-macbookpro2:pigeon guolihuang$ git commit git_command_line 
+Aborting commit due to empty commit message.
+guolihuang-macbookpro2:pigeon guolihuang$ 
+guolihuang-macbookpro2:pigeon guolihuang$ git commit git_command_line -m "second file"
+[master 11aad4a] second file
+ 1 file changed, 19 insertions(+)
+ create mode 100644 git_command_line
+guolihuang-macbookpro2:pigeon guolihuang$ git push
+Username for 'https://github.com': ghuang03@gmail.com
+Password for 'https://ghuang03@gmail.com@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 543 bytes | 543.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ghuang03/pigeon.git
+   a10b417..11aad4a  master -> master
+guolihuang-macbookpro2:pigeon guolihuang$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+guolihuang-macbookpro2:pigeon guolihuang$ git branch
+* master
+guolihuang-macbookpro2:pigeon guolihuang$ 
+
